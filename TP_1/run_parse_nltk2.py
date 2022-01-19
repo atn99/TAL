@@ -14,7 +14,7 @@ print("file_in :" , file_in, "& file_out :", file_out)
 
 f1 = open(file_in, "r")
 f2 = open(file_out, "w") 
-grammar= """Compound:{<DT>?<JJ>*<NN>}"""
+grammar = """Compound:{<JJ>?<JJ>?<NN><NN>?}"""
 chunker = RegexpParser(grammar)
 print("After Regex:",chunker)
 
