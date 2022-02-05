@@ -11,9 +11,11 @@ f2 = open(file_out, "w")
 
 for line in f1:
         if(not line.isspace()):
+            #case if there is something writen in the line
             line_split = line.split("\t")
             word = line_split[0]
             pos_tag = line_split[1]
+            pos_tag = pos_tag.replace("]","") # removing the ']' caracter
             pos_tag_without_space = pos_tag.replace(" ", "")
             pos_tag_without_space_and_return_line = pos_tag_without_space.split('\n')[0]
             if(pos_tag_without_space_and_return_line == '.'):
@@ -23,5 +25,6 @@ for line in f1:
 
         else:
             f2.write('\n')
+            # case if this is an empty line
 
 
