@@ -8,7 +8,7 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
 file_in = sys.argv[1] #wsj_0010_sample.txt
-file_out = sys.argv[2] #wsj_0010_sample.txt.chk.nltk
+file_out = sys.argv[2] #wsj_0010_sample.txt.chk.nltk2
 
 print("file_in :" , file_in, "& file_out :", file_out)
 
