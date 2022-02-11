@@ -1,3 +1,6 @@
+						An Toàn Neyraud et Guillaume Besse
+
+
 TP2 - Analyse linguistique avec la plateforme Stanford CoreNLP.
 
 

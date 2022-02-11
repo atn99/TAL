@@ -1,4 +1,8 @@
+						An Toàn Neyraud et Guillaume Besse
+
 TP1 - Analyse linguistique avec le framework NLTK.
+
+
 
 Installation de la plateforme d’analyse linguistique NLTK.
 	1. Installation de NLTK : 
