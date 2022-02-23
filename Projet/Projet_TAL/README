@@ -1,0 +1,14 @@
+Option TAL : Projet
+
+Sujet 2 : Un désambiguïseur morpho-synatxique (Part-of-Speech tagger) basé sur 
+des réseaux de neurones récurrents (LSTM)
+
+Tout le code se trouve dans le fichier : TODO
+
+Pour l'embedding avec mots pre-entraines j'ai utilisé Glove en 50 dimensions.
+Etant trop lourd pour le git, vous pouvez le télécharger ici : https://nlp.stanford.edu/data/glove.6B.zip
+Pour le path du fichier, il faudra surement le modifier dans le code ligne TODO
+
+
+
+#Penser a ajouter le eval rappel, f1_score, precision
