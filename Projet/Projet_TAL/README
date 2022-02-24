@@ -3,6 +3,25 @@ Option TAL : Projet
 Sujet 2 : Un désambiguïseur morpho-synatxique (Part-of-Speech tagger) basé sur 
 des réseaux de neurones récurrents (LSTM)
 
+L'environnement : 
+
+- Instalation (Windows 10) : 
+    - Anaconda :    https://mrmint.fr/installer-environnement-python-machine-learning-anaconda
+    - CUDA :        conda install cudatoolkit=11.0 cudnn
+    - PyTorch :     conda install pytorch torchvision -c pytorch
+    - Numpy :       conda install -c anaconda numpy
+         ou :       pip install numpy
+    - matplotlib :  pip install matplotlib
+- Instalation (Linux) : 
+    - Anaconda :    https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart-fr
+    - CUDA :        conda create -n env_pytorch python=3.7 
+        et :        conda activate env_pytorch
+    - PyTorch :     pip install torchvision 
+    - matplotlib :  pip install matplotlib
+    - Numpy :       pip install numpy
+
+Le code : 
+
 Tout le code se trouve dans le fichier : TODO
 
 Pour l'embedding avec mots pre-entraines j'ai utilisé Glove en 50 dimensions.
