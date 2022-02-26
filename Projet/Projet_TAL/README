@@ -1,5 +1,7 @@
 Option TAL : Projet
 
+Auteur : NEYRAUD An Toàn
+
 Sujet 2 : Un désambiguïseur morpho-synatxique (Part-of-Speech tagger) basé sur 
 des réseaux de neurones récurrents (LSTM)
 
@@ -20,14 +22,11 @@ L'environnement :
     - matplotlib :  pip install matplotlib
     - Numpy :       pip install numpy
 
-Le code : 
+Le code est sur un Jupyter notebook (Je trouve ca plus lisible).
 
-Tout le code se trouve dans le fichier : TODO
+Tout le code se trouve dans le fichier : lstm_pos_tagging_tranning_model.ipynb
 
 Pour l'embedding avec mots pre-entraines j'ai utilisé Glove en 50 dimensions.
 Etant trop lourd pour le git, vous pouvez le télécharger ici : https://nlp.stanford.edu/data/glove.6B.zip
-Pour le path du fichier, il faudra surement le modifier dans le code ligne TODO
 
-
-
-#Penser a ajouter le eval rappel, f1_score, precision
+Pour le path du fichier, il se trouve dans la partie [Chargement des donnees de GloVe], 5eme cellule du notebook, il faudra surement le modifier dans le code en fonction de ou vous avez mis le téléchargement.
