@@ -9,4 +9,4 @@ Voir le README de chacun des fichiers
 
 Réalisé par An Toàn Neyraud
 
-Voir README dans le dossier projet
+Voir README dans le dossier projet/projet_tal
